@@ -1,0 +1,16 @@
+<h1>Hello {{data}}!</h1>
+
+<ul>
+  <li *ngFor='let n of data'>
+    {{n}}
+  </li>
+
+<p>user details</p>
+
+  {{user_data.name}}
+  {{user_data.age}}
+  {{user_data.isActive}}
+
+</ul>
+
+<button (click) = 'handle_click()'>click me</button>
